@@ -1,0 +1,32 @@
+# render.yaml - Vanguard MD Deployment
+
+services:
+  - type: web
+    name: vanguard-md
+    env: node
+    plan: free  # change to starter/pro if needed
+    region: oregon  # optional
+    buildCommand: "npm install --legacy-peer-deps"
+    startCommand: "node index.js"
+    autoDeploy: true
+    envVars:
+      # SESSION_ID is mandatory for returning users or first-time deployment
+      SESSION_ID: ""  # Users must paste your session id here 
+
+      # Phone number is optional if SESSION_ID is valid, but needed for fresh sessions
+      PHONE_NUMBER: ""
+
+      # Bot prefix and mode
+      PREFIX: "."
+      MODE: "public" #dms/groups/inbox
+
+      # Anti-call default (off)  decline/blowck /msg
+      ANTI_CALL: "off"
+
+      # Auto Bio toggle (true/false)
+      AUTO_BIO: "false"
+
+      
+      
+
+      
