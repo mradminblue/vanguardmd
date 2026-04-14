@@ -61,6 +61,20 @@ Visit either pairing site to get your Session ID or pair via phone number:
 |🎨 **PairCode2** |[vanguardmdpair.onrender.com](https://vanguardmdpair.onrender.com/)    |
 
 -----
+### 💾Free Server Options 
+
+Visit either hosts to get your Free Sever For hosting Your Bot 
+
+|Host     |Link                                                                   |
+|:------------|:----------------------------------------------------------------------|
+|💿 **Katabump**|[Katabump Free Panel](https://rl.katabump.eu/32f4ce/)|
+|💿 **BotHost.Net** |[Bot Hosting.Net](https://bot-hosting.net/?aff=1324769334614298835/) |
+
+-----
+
+
+
+-----
 
 ## 📦 HOW TO CONNECT YOUR BOT
 
