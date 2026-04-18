@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: vanguard-md
+    env: docker
+    region: Frankfurt
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: "3000"
+      - key: NODE_ENV
+        value: production
+      - key: SESSION_ID
+        sync: false
+      - key: PHONE_NUMBER
+        sync: false
+      - key: PREFIX
+        value: "."
+      - key: MODE
+        value: public
+    healthCheckPath: /
