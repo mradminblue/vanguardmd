@@ -1,6 +1,6 @@
 {
   "name": "vanguard-md",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "description": "VANGUARD MD — WhatsApp Multi-Device Bot powered by Baileys",
   "main": "index.js",
   "scripts": {
