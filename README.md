@@ -7,7 +7,7 @@
 
 # 🤖 VANGUARD MD
 
-### Advanced Multi-Device WhatsApp Bot
+### Advanced Multi-Multisession WhatsApp Bot
 
 <p>
   <a href="https://whatsapp.com/channel/0029Vb6RoNb0bIdgZPwcst2Y">
@@ -28,7 +28,7 @@
 <p>
   A powerful, fast, and feature-rich WhatsApp bot built on the <b>Baileys</b> library.<br>
   VANGUARD MD brings advanced automation, group management, media tools,<br>
-  AI commands, economy systems and deep customisation — all from your WhatsApp.
+  AI commands, economy systems and deep customisation supporting more than one client — all from your WhatsApp Devices.
 </p>
 
 <hr>
@@ -150,6 +150,19 @@ pm2 startup
 -----
 
 ## ⚡ KEY FEATURES
+
+-----
+
+-----
+
+## 🧑‍🧑‍🧒‍🧒 MULTI-SESSION SUPPORT 
+
+> This project is can run and operate more than one users at a time 
+> The master bot (first to connect) are  responsible for adding/removing/managing sessions and any usage of this software.  
+> Do not use this bot for a spamming, harassment, or any activity that violates whatsapp terms of service because it may lead to bans 
+
+-----
+
 
 |Category              |Features                                                                                                                |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
