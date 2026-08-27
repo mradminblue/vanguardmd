@@ -8,7 +8,7 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:@lordmega/baileys@latest",
+    "@whiskeysockets/baileys": "npm:@itsliaaa/baileys@latest",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
     "acrcloud": "^1.4.0",
