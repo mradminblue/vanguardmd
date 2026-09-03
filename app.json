@@ -1,0 +1,34 @@
+{
+  "name": "VANGUARD MD",
+  "description": "VANGUARD MD, The Best Whatsapp Bot!",
+  "logo": "https://ibb.co/YBjsZSbw",
+  "keywords": [],
+  "repository": "https://github.com/mradminblue/vanguardmd",
+  "stack": "heroku-24",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "env": {
+    "SESSION_ID": {
+      "description": "Must begin with VANGUARD-MD;;;",
+      "value": "",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
