@@ -12,6 +12,7 @@
     "@hapi/boom": "^10.0.1",
     "acrcloud": "^1.4.0",
     "axios": "^1.8.4",
+    "adm-zip": "^0.5.16",
     "better-sqlite3": "^11.0.0",
     "api-qasim": "^3.2.10",
     "chalk": "^4.1.2",
