@@ -1,0 +1,15 @@
+node_modules
+session
+sessions
+data/*.bak
+tmp
+temp
+.git
+.gitignore
+.log
+.env
+.git
+.npm
+.cache
+bots.json
+src
