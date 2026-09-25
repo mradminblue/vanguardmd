@@ -1,0 +1,24 @@
+{
+  "name": "vanguard-md",
+  "description": "VANGUARD MD WhatsApp Bot",
+  "repository": "https://github.com/mradminblue/vanguardmd",
+  "stack": "heroku-24",
+  "formation": { "web": { "quantity": 1, "size": "basic" } },
+  "env": {
+    "SESSION_ID": {
+      "description": "REQUIRED: Your VANGUARD-MD;;; session ID from the pair site",
+      "value": "",
+      "required": true
+    },
+    "PHONE_NUMBER": {
+      "description": "Optional. Phone number for first-time pairing (no TTY needed if SESSION_ID is set)",
+      "value": "",
+      "required": false
+    },
+    "NODE_ENV": {
+      "description": "Node environment",
+      "value": "production",
+      "required": false
+    }
+  }
+}
